@@ -1,4 +1,4 @@
-name: Apply v0.3.4.5 render-address-fix.zip
+name: Apply v0.3.9.0 render-address-fix.zip
 
 on:
   workflow_dispatch:
@@ -23,7 +23,7 @@ jobs:
 
       - name: Apply ZIP
         run: |
-          ZIP_FILE="linjian-peek-public-v0.3.4.5-render-address-fix.zip"
+          ZIP_FILE="linjian-peek-public-v0.3.9.0-render-address-fix.zip"
 
           if [ ! -f "$ZIP_FILE" ]; then
             echo "找不到 ZIP：$ZIP_FILE"
@@ -65,7 +65,7 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Update v0.3.4.2 address fix"
+          git commit -m "Update v0.3.9.0 address fix"
 
           git pull --rebase origin main
           git push origin main
