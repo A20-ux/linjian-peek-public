@@ -1,6 +1,6 @@
 # 掌心窗公开版 v0.3.9.0
 
-## v0.3.9.0 MCP 兼容与日记批注读取修复
+## v0.3.9.0 MCP 兼容与日记批注读取修复 
 
 - 修复部分 AI 平台连接 MCP 时因 `params.capabilities.experimental.ovoActivityCards` 触发 `Invalid input` 的兼容问题。
 - 修复日记批注读取工具返回 `noop`：server 白名单补齐批注相关 action。
